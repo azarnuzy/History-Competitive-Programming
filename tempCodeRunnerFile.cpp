@@ -1,0 +1,1 @@
+cout << "ke-2" << " " << tempX << " " << tempY << " " << scoreTemp[x] << " " << scoreTemp[y] << "\n";
