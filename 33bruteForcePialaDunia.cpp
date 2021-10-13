@@ -13,13 +13,11 @@ void checkScore(int x, int y) {
     } 
     if(x == n && y == n + 1) {
         int itr = 0;
-        REP(i, 1, n) {
-            cout << scoreTemp[i] << ' ';
+        REP(i, 1, n) {            
             if(score[i] == scoreTemp[i]) {
                 itr++;
             }
         }
-        cout << "\n";
         if(itr == n ) {
             check = 1;
             cout << "YES" << "\n";
