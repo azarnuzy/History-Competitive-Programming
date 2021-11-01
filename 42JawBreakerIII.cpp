@@ -75,7 +75,6 @@ int main(int argc, char const *argv[])
         }
     }
 
-
     memset(visited, 0, sizeof visited);
 
     todot(b, k, matriks[b][k]);

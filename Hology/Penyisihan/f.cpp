@@ -72,6 +72,7 @@ int main(){
     result += cek(d, c, b, a);
     result += cek(d, b, c, a);
     result += cek(d, b, a, c);
+    cout << endl;
     cout << result;
     if(result > 0) { cout << "Bisa\n"; }
     else { cout << "Tidak Bisa\n"; }

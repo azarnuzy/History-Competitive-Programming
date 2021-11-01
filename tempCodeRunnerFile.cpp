@@ -1,1 +1,1 @@
-swapUp(i, j);
+memset(visited, 0, sizeof visited);
