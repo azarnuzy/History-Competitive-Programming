@@ -74,6 +74,7 @@ int main(int argc, char const *argv[])
                 jumlah = 0;
                 dfs(i, j, matriks[i][j], 0);
                 max = jumlah;
+                if(max == 1) continue;
                 memset(visited, 0, sizeof visited);
                 dfs(i, j, matriks[i][j], 1);
 
